@@ -16,7 +16,7 @@ const createButton = () => {
 // Create span with text content of item
 const createSpan = () => {
   span = document.createElement('span');
-  span.textContent = item;
+  span.textContent = '- ' + item;
   return span;
 };
 

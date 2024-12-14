@@ -7,16 +7,19 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>My shopping list</h1>
-
-    <div>
-      <label for="item">Enter a new item:</label>
-      <input type="text" class="user-input" name="item" id="item" />
-      <button class="add-item-btn">Add item</button>
+    <header>
+      <h1>My Shopping List</h1>
+    </header>
+    <div class="container">
+      <div>
+        <label for="item">Enter a new item:</label>
+        <input type="text" class="user-input" name="item" id="item" />
+        <button class="add-item-btn">Add item</button>
+      </div>
+      <div>
+        <ul class="shopping-list"></ul>
+      </div>
     </div>
-
-    <ul class="shopping-list"></ul>
-
     <script src="js/script.js"></script>
   </body>
 </html>
